@@ -34,23 +34,26 @@
         <div class="all-sections">
             <h1>PORTFOLIO</h1>
             <div class="flex-container">
-                <div class="portfolio-item-clickable" data-title="Test Execution Report"
-                    data-description="Description of Project 1" data-pdf="document1.pdf">
-                    <h2>Test Execution Results</h2>
-                    <p>Detailed documentation of test cases and execution statuses. Created for the CompTerra app.</p>
-                    <img src="test-execution-results-cover.png" class="project-thumbnail">
+                <div class="portfolio-item-clickable">
+                    <a href="https://example.com/test-execution-results.pdf" target="_blank">
+                        <h2>Test Execution Results</h2>
+                        <p>Detailed documentation of test cases and execution statuses. Created for the CompTerra app.</p>
+                        <img src="test-execution-results-cover.png" class="project-thumbnail">
+                    </a>
                 </div>
-                <div class="portfolio-item-clickable" data-title="Defect Report"
-                    data-description="Description of Project 2" data-pdf="document2.pdf">
-                    <h2>Defects Report</h2>
-                    <p>Contains information on multiple defects found in the CompTerra app.</p>
-                    <img src="defect-report-cover.png" class="project-thumbnail">
+                <div class="portfolio-item-clickable">
+                    <a href="https://example.com/defects-report.pdf" target="_blank">
+                        <h2>Defects Report</h2>
+                        <p>Contains information on multiple defects found in the CompTerra app.</p>
+                        <img src="defect-report-cover.png" class="project-thumbnail">
+                    </a>
                 </div>
-                <div class="portfolio-item-clickable" data-title="Test Progress Report"
-                    data-description="Description of Project 3" data-pdf="document3.pdf">
-                    <h2>Test Progress Report</h2>
-                    <p>Contains summarized information on test execution status and defect status.</p>
-                    <img src="test-progress-report-cover.png" class="project-thumbnail">
+                <div class="portfolio-item-clickable">
+                    <a href="https://example.com/test-progress-report.pdf" target="_blank">
+                        <h2>Test Progress Report</h2>
+                        <p>Contains summarized information on test execution status and defect status.</p>
+                        <img src="test-progress-report-cover.png" class="project-thumbnail">
+                    </a>
                 </div>
                 <!-- Add more portfolio items as needed -->
             </div>
@@ -82,56 +85,5 @@
         });
     </script>
 </body>
-
-<div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2 id="modal-title"></h2>
-        <p id="modal-description"></p>
-        <iframe id="modal-pdf" src=""></iframe>
-    </div>
-</div>
-
-<script>
-    // Your existing script for smooth scrolling
-
-    // Function to open the modal
-    function openModal(title, description, pdf) {
-        // document.getElementById('modal-title').innerText = title;
-        // document.getElementById('modal-description').innerText = description;
-        // Set the src attribute of the iframe
-        document.getElementById('modal-pdf').src = pdf;
-        document.getElementById('myModal').style.display = 'block';
-    }
-
-    // Function to close the modal
-    function closeModal() {
-        document.getElementById('myModal').style.display = 'none';
-    }
-
-    // Add click event listeners to portfolio items
-    document.addEventListener('DOMContentLoaded', function () {
-        var portfolioItems = document.querySelectorAll('.portfolio-item-clickable');
-        portfolioItems.forEach(function (item) {
-            item.addEventListener('click', function () {
-                var title = item.getAttribute('data-title');
-                var description = item.getAttribute('data-description');
-                var pdf = item.getAttribute('data-pdf');
-                openModal(title, description, pdf);
-            });
-        });
-
-
-        // Close modal when the close button is clicked
-        document.querySelector('.close').addEventListener('click', closeModal);
-
-        // Close modal when clicking outside the modal
-        window.addEventListener('click', function (event) {
-            if (event.target == document.getElementById('myModal')) {
-                closeModal();
-            }
-        });
-    });
-</script>
 
 </html>
