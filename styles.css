@@ -39,8 +39,15 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.navbar-hyperlink {
     color: rgba(255, 255, 255, 0.75);
     font-size: 18px;
+}
+
+.portfolio-hyperlink {
+    color: black;
 }
 
 a:hover {
