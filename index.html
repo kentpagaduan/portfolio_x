@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Kent Pagaduan</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    // Change yes to no
+                } else {
+                    // Set h1 text to yes
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -19,11 +31,15 @@
             </ul>
         </nav>
 
+
         <!-- Home Section -->
         <section id="home">
             <div class="background-image">
                 <!-- Your photo and landing page text go here -->
-                <h1>Hi! I'm Kent.</h1>
+                <h1>YES</h1>
+                <article style="height: 1000px">
+                    <p>test</p>
+                </article>
                 <!-- <p>I'm a computer science graduate with a background in web development.</p> -->
             </div>
         </section>
@@ -91,6 +107,8 @@
             smoothscroll.polyfill();
         });
     </script>
+
+    
 </body>
 
 </html>

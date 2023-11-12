@@ -46,11 +46,7 @@ a {
     font-size: 18px;
 }
 
-.portfolio-hyperlink {
-    color: black;
-}
-
-a:hover {
+.navbar-hyperlink:hover {
     color: white;
     transition-duration: 0.5s;
 }
@@ -64,7 +60,7 @@ a:hover {
     justify-content: center; */
 
     /* background-color: #222; */
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background-photo.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(background-photo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -111,16 +107,20 @@ a:hover {
     /* border: 1px solid #ddd; */
     max-width: 360px;
     /* background-color: white; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);   */
 }
 
 .portfolio-item-clickable:hover {
     cursor: pointer;
     scale: 105%;
     transition-duration: 0.3s;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);  
-    background-color:#888;
-    color: white;
+    /* text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.4);   */
+    /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);   */
+    /* background-color:lightgrey; */
+}
+
+.portfolio-hyperlink {
+    color: black;
 }
 
 /* .portfolio-item-clickable img.project-thumbnail:hover {
