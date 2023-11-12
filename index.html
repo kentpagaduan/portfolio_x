@@ -6,23 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Kent Pagaduan</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 100) {
-                    // Change yes to no
-                } else {
-                    // Set h1 text to yes
-                }
-            });
-        });
-    </script>
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <div id="navbar-home">
+    <!-- Navigation Bars and Home -->
+    <div class="navbar-and-home">
+        <!-- Navigation Bar -->
         <nav>
             <ul>
                 <li><a href="#portfolio" class="navbar-hyperlink">PORTFOLIO</a></li>
@@ -30,20 +19,27 @@
                 <li><a href="#contact" class="navbar-hyperlink">CONTACT</a></li>
             </ul>
         </nav>
-
-
         <!-- Home Section -->
-        <section id="home">
+        <section class="home">
             <div class="background-image">
                 <!-- Your photo and landing page text go here -->
-                <h1>YES</h1>
-                <article style="height: 1000px">
-                    <p>test</p>
-                </article>
+                <h1>Hi! I'm Kent.</h1>
+                <p>Welcome to my portfolio website.</p>
                 <!-- <p>I'm a computer science graduate with a background in web development.</p> -->
             </div>
         </section>
     </div>
+
+    <!-- ABOUT section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla dignissim facilisis. Curabitur
+            tristique neque quis eros cursus congue. Curabitur ornare sodales varius. Proin quis ullamcorper ex.
+            Curabitur finibus massa lorem, a accumsan nibh rhoncus a. Morbi tristique, nunc ac euismod tincidunt,
+            enim enim aliquet risus, sed elementum sem dui a lorem. Nunc lobortis interdum facilisis. Nulla sit amet
+            est id nisi molestie imperdiet at eget tortor. In vitae purus et felis venenatis pellentesque. Nulla id
+            erat at diam tempus egestas.</p>
+    </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
@@ -84,12 +80,12 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <!-- <section id="about">
         <div class="all-sections">
             <h2>About Me</h2>
             <p>Write something about yourself here.</p>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
     <section id="contact">
@@ -99,16 +95,16 @@
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.2/dist/smoothscroll.js"></script>
     <script>
         // Enable smooth scrolling
         document.addEventListener('DOMContentLoaded', function () {
             smoothscroll.polyfill();
         });
-    </script>
+    </script> -->
 
-    
+
 </body>
 
 </html>
