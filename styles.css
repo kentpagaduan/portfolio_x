@@ -199,6 +199,15 @@ a {
     /* background-color:lightgrey; */
 }
 
+.portfolio-item.clickable:not(:hover) {
+    cursor: pointer;
+    /* scale: 105%; */
+    transition-duration: 0.3s;
+    /* text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.4);   */
+    /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);   */
+    /* background-color:lightgrey; */
+}
+
 .portfolio-hyperlink {
     color: black;
 }
