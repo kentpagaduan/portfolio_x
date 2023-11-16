@@ -167,7 +167,7 @@ a {
     justify-content: space-around;
 }
 
-.portfolio-item-clickable {
+.portfolio-item {
     text-align: center;
     padding: 20px;
     margin: 10px;
@@ -188,7 +188,9 @@ a {
     font-style: italic;
 }
 
-.portfolio-item-clickable:hover {
+
+
+.portfolio-item.clickable:hover {
     cursor: pointer;
     scale: 105%;
     transition-duration: 0.3s;
