@@ -63,7 +63,7 @@ a {
     height: 100vh;
     color: white;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(background-photo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(background-photo@0.5x.jpg);
     background-size: cover;
     background-position: center;
 }
