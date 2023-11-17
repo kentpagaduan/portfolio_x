@@ -80,7 +80,7 @@ a {
     background-size: cover;
 }
 
-#about {
+/* #about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,9 +90,9 @@ a {
     padding-right: 25%;
     color: whitesmoke;
     height: 100%;
-}
+} */
 
-#about-background {
+/* #about-background {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -102,7 +102,7 @@ a {
     background-image: linear-gradient(-45deg, #53817e 0%, #53817e 25%, #53817e 51%, #676aab 100%);
     -webkit-animation: AnimateBG 5s ease infinite;
     animation: AnimateBG 5s ease infinite;
-}
+} */
 
 /* @-webkit-keyframes AnimateBG {
     0% {
