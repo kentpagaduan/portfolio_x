@@ -58,7 +58,11 @@ a {
 
 .navbar-hyperlink:hover {
     opacity: 100%;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
+}
+
+.navbar-hyperlink:not(:hover) {
+    transition-duration: 0.3s;
 }
 
 .navbar-and-home {
@@ -157,9 +161,9 @@ a {
 }
 
 .portfolio-item.clickable:hover img {
-    scale: 103%;
+    scale: 102.5%;
     transition-duration: 0.3s;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);  
+    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.4);  
     /* border: 5px solid lightgrey; */
 }
 
@@ -177,7 +181,7 @@ a {
 }
 
 .portfolio-item.clickable:not(:hover) {
-    transition-duration: 0.3s;
+    transition-duration: 0.25s;
 }
 
 .portfolio-hyperlink {
@@ -217,7 +221,11 @@ a {
 
 .website-icon:hover {
     opacity: 100%;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
+}
+
+.website-icon:not(:hover) {
+    transition-duration: 0.3s;
 }
 
 
