@@ -84,58 +84,6 @@ a {
     background-size: cover;
 }
 
-/* #about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    color: whitesmoke;
-    height: 100%;
-} */
-
-/* #about-background {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: 300% 300%;
-    background-image: linear-gradient(-45deg, #53817e 0%, #53817e 25%, #53817e 51%, #676aab 100%);
-    -webkit-animation: AnimateBG 5s ease infinite;
-    animation: AnimateBG 5s ease infinite;
-} */
-
-/* @-webkit-keyframes AnimateBG {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-@keyframes AnimateBG {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-} */
-
 #portfolio {
     text-align: center;
     padding: 50px;
@@ -194,13 +142,74 @@ a {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: whitesmoke;
+    /* height: 100%; */
+    height: 100vh;
+    /* width: 100%; */
+}
+
+#about-contact-background {
+    /* width: 100%; */
+    /* height: 100vh; */
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, #53817e 0%, #53817e 25%, #53817e 51%, #676aab 100%);
+    -webkit-animation: AnimateBG 5s ease infinite;
+    animation: AnimateBG 5s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#contact-background {
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
 #contact {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     /* Adjust the padding as needed */
-    background-color: rgb(223, 223, 223);
+    /* background-color: rgb(223, 223, 223); */
 }
 
 #contact h4 {
@@ -213,6 +222,7 @@ a {
     margin-left: 10px;
     margin-right: 10px;
     opacity: 50%;
+    filter: invert(100%);
 }
 
 .website-icon a {
