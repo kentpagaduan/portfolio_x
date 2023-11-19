@@ -159,9 +159,9 @@ a {
     animation: AnimateBG 5s ease infinite;
 }
 
-#about-contact-background space-grow{
+/* #about-contact-background space-grow{
     flex-grow: 1;
-}
+} */
 
 #about {
     display: flex;
